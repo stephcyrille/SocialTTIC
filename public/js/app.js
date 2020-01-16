@@ -104844,8 +104844,8 @@ function configureStore(preloadedState) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Stephcyrille\karaf\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\Stephcyrille\karaf\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/stephcyrille/Personnal/SocialTTIC/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/stephcyrille/Personnal/SocialTTIC/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
