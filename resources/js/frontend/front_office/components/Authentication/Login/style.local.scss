@@ -1,0 +1,158 @@
+.background{
+	width: 100%;
+	background: url("/images/1.png");
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.main-title{
+  font-family: 'Showcard Gothic';
+  font-size: 4em;
+  margin: 30px;
+}
+#block1{
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+#block2{
+  background: white;
+  width: 350px;
+  margin: auto;
+  padding: 25px 30px 40px 30px;
+  border-radius: 5px;
+}
+hr{
+  width: 300px;
+  background-color: white;
+}
+h5{
+  font-weight: normal;
+  font-size: 17px;
+}
+
+hr+p{
+  width: 80%;
+  margin: 20px auto;
+  font-size: 14px;
+}
+.profile{
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.btn-content{
+  display: flex;
+  justify-content: center;
+}
+.btn-item1{
+  background: white;
+  border-radius: 3px 0px 0px 3px;
+  display: inline-block;
+  font-size: 14px;
+  color: green;
+  padding: 10px 25px;
+}
+.btn-item2{
+  background: inherit;
+  border-radius: 0px 3px 3px 0px;
+  display: inline-block;
+  font-size: 14px;
+  color: white;
+  padding: 10px 25px;
+  border: 2px solid white;
+}
+.btn-submit{
+  background: rgb(70,131,212);
+  color: white;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+/*Steph Styling*/
+.iconUser{
+  padding: 35px 0 35px 0;
+}
+
+.btn.btn-outline-light.btn-md.connect{
+	border-radius: 0px;
+	padding: 5px 25px;
+  color: #fff;
+  background-color: #6e983d;
+}
+.btn.btn-outline-light.btn-md.connect.active{
+  color: #6e983d;
+  background-color: #fff;
+}
+.btn.btn-outline-light.btn-md.connect:hover{
+	color: #6e983d;
+	background-color: #fff;
+}
+
+
+
+.connectTitle{
+    margin-bottom: 25px;
+    background-color: #05630017;
+    padding: 10px;
+}
+
+/* Ant modifie */
+.ant-steps-item-process.ant-steps-item-icon {
+    background: #6e983d !important;
+}
+
+.ant-steps-item-process.ant-steps-item-icon {
+    border-color: #056300;
+}
+
+.ant-steps-item-finish.ant-steps-item-icon {
+    background-color: #fff !important;
+    border-color: #056300;
+}
+
+.ant-steps-item-finish.ant-steps-item-icon > .ant-steps-icon {
+    color: #6e983d !important;
+}
+
+/* Button form soumettre */
+.ant-btn-primary{
+    color: #fff;
+    background-color: #056300;
+    border-color: #056300;
+}
+.ant-btn-primary:hover, .ant-btn-primary:focus {
+    color: #fff;
+    background-color: #6e983d;
+    border-color: #056300;
+}
+.ant-btn:hover, .ant-btn:focus, .ant-btn:active {
+    color: #056300;
+    background-color: #fff;
+    border-color: #6e983d;
+}
+
+
+.cover-spiner{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 255,255,0.7);
+    z-index: 9999;
+}
+
+.login_picture{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
