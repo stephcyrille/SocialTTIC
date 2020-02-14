@@ -1,0 +1,73 @@
+body{
+  background: url('../images/bck_bleu.png');
+  background-size: cover;
+}
+.main-title{
+  font-family: 'Showcard Gothic';
+  font-size: 4em;
+  margin: 30px;
+}
+#block1{
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+#block2{
+  background: white;
+  width: 350px;
+  height: 380px;
+  margin: auto;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+hr{
+  width: 300px;
+  background-color: white;
+}
+h5{
+  font-weight: normal;
+  font-size: 17px;
+}
+
+hr+p{
+  width: 80%;
+  margin: 20px auto;
+  font-size: 14px;
+}
+.profile{
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.btn-content{
+  display: flex;
+  justify-content: center;
+}
+.btn-item1{
+  background: white;
+  border-radius: 3px 0px 0px 3px;
+  display: inline-block;
+  font-size: 14px;
+  color: green;
+  padding: 10px 25px;
+}
+.btn-item2{
+  background: inherit;
+  border-radius: 0px 3px 3px 0px;
+  display: inline-block;
+  font-size: 14px;
+  color: white;
+  padding: 10px 25px;
+  border: 2px solid white;
+}
+.btn-submit{
+  background: rgb(70,131,212);
+  color: white;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
