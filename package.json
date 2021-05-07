@@ -49,7 +49,7 @@
         "redux-form": "^8.2.6",
         "redux-thunk": "^2.3.0",
         "style-loader": "^1.1.2",
-        "underscore": "^1.9.1",
+        "underscore": "^1.12.1",
         "universal-cookie": "^4.0.3"
     }
 }
